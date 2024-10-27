@@ -6,7 +6,7 @@ GREEN="\e[92m"
 WHITE="\e[97m"
 
 # Input for the user
-read -p "Enter the absolute path of the user dictionary: " DICTIONARY_PATH
+read -p "Enter the absolute path to the dictionary with user names: " DICTIONARY_PATH
 read -p "Enter the IP of the remote host: " RHOST
 read -p "Enter the absolute path of the private key id_rsa: " KEY_PATH
 
