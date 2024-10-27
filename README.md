@@ -39,7 +39,7 @@ Execute the script:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-✅ User found? Try to access via SSH thanks to the id_rsa
+✅ User found? Try to access via SSH thanks to the id_rsa:
 
 ``` bash
 ssh <User Found>@<Target IP> -i id_rsa
