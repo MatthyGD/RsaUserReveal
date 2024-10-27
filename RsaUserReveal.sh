@@ -31,9 +31,9 @@ USERS=$(<"$DICTIONARY_PATH")
 for USER in $USERS; do
   ssh -o BatchMode=yes -i "$KEY_PATH" "$USER@$RHOST" -x id &>/dev/null
   if [ $? -eq 0 ]; then
-    echo -e "$GREEN[+] Usuario $USER es válido"
+    echo -e "$GREEN[+] user $USER is valid"
     exit 0
   else
-    echo -e "$RED[-]$WHITE Usuario $USER es inválido"
+    echo -e "$RED[-]$WHITE user $USER is not valid"
   fi
 done
