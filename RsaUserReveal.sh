@@ -6,9 +6,9 @@ GREEN="\e[92m"
 WHITE="\e[97m"
 
 # Input for the user
-read -p "Ingrese la ruta absoluta del diccionario de usuarios: " DICTIONARY_PATH
-read -p "Ingrese la IP del host remoto: " RHOST
-read -p "Ingrese la ruta absoluta de la clave privada id_rsa: " KEY_PATH
+read -p "Enter the absolute path of the user dictionary: " DICTIONARY_PATH
+read -p "Enter the IP of the remote host: " RHOST
+read -p "Enter the absolute path of the private key id_rsa: " KEY_PATH
 
 # Check date
 if [ ! -f "$DICTIONARY_PATH" ]; then
