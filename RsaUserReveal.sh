@@ -12,12 +12,12 @@ read -p "Enter the absolute path of the private key id_rsa: " KEY_PATH
 
 # Check date
 if [ ! -f "$DICTIONARY_PATH" ]; then
-  echo -e "$RED[!] Diccionario no encontrado en $DICTIONARY_PATH"
+  echo -e "$RED[!] Dictionary not found in $DICTIONARY_PATH"
   exit 1
 fi
 
 if [ ! -f "$KEY_PATH" ]; then
-  echo -e "$RED[!] Clave privada no encontrada en $KEY_PATH"
+  echo -e "$RED[!] Private key not found in $KEY_PATH"
   exit 1
 fi
 
